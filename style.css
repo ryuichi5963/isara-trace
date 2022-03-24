@@ -1032,6 +1032,10 @@ body{
     cursor: pointer;
 } 
 
+.faq{
+    padding-bottom: 4em;
+}
+
 .faq h2{
     margin: 2em 0;
     font-size: 1.8em;
@@ -1039,16 +1043,25 @@ body{
     text-align: center;
 }
 
+/*　closeというクラスがついたらアンダーライン　*/
+.close {
+    text-decoration:underline;
+}
+
 /*アコーディオン全体*/
 .accordion-area{
     list-style: none;
-    width: 70%;
-    height: 3em;
-    padding: 0 15%;
+    width: 76%;
+    padding: 0 12%;
 }
 
 .accordion-area h3{
     margin: 0.5em;
+}
+
+.accordion-area i{
+    font-size: 0.8em;
+    vertical-align:middle;
 }
 
 /*アコーディオンタイトル*/
@@ -1069,20 +1082,18 @@ body{
     font-weight: 900;
     position: absolute;
     top: 20%;
-    right: 5%;
+    right: 2%;
     transition: transform 0.1s;
     font-size: 30px;
     font-family: "Font Awesome 5 Free";
     
 }
 
-/*　closeというクラスがついたらアンダーライン　*/
-.close {
-    text-decoration:underline;
-}
+
+
+
 
 /*　closeというクラスがついたら形状変化　*/
-
 .title.close::before{
 	transform: rotate(180deg);
 }
@@ -1103,3 +1114,22 @@ body{
     color: rgb(34, 176, 233);
 }
 
+.footer{
+    padding: 2em 0;
+    background-color: rgb(236,236,236);
+    text-align: center;
+}
+
+.footer p{
+    margin-bottom: 0.1em;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+}
+
+.footer-sns{
+    margin-bottom: 2em;
+}
+
+.footer-link{
+    color: skyblue;
+}
