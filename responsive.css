@@ -47,7 +47,7 @@ h2{
 }
 
 .header-logo{
-    width: 77%;
+    width: 80%;
 }
 
 .header img{
@@ -60,7 +60,7 @@ h2{
 
 .header-btn-img{
     display: inline-block;
-    width: 23%;
+    width: 20%;
     background-color: rgb(218,107,100);
     text-align: center;
     position: relative;
@@ -72,19 +72,20 @@ h2{
     height: auto;
     position: absolute;
     top: 40%;                    /* 親要素の半分下にずらす */
-    left: 45%;                   /* 親要素の右にずらす */
+    left: 50%;                   /* 親要素の右にずらす */
     transform: translateY(-50%) translateX(-50%);/* 要素自体の半分、上と左にずらす */
 
 }
 
 .header-btn-img p{
+    width: 5em;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: clamp(70%,2vw,85%);
+    font-size: clamp(75%,2vw,90%);
     color: white;
     position: absolute;
     top: 75%;                    /* 親要素の半分下にずらす */
-    left: 45%;                   /* 親要素の右にずらす */
+    left: 50%;                   /* 親要素の右にずらす */
     transform: translateY(-50%) translateX(-50%);/* 要素自体の半分、上と左にずらす */
 
 }
@@ -760,7 +761,7 @@ details[open] .flow-acord-sum p{
 }
 
 .form-submit{
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     padding-left: 0em;
     width: 91%;
     height: 3em;
@@ -768,10 +769,48 @@ details[open] .flow-acord-sum p{
     letter-spacing: 1em;
 }
 
-/*アコーディオン全体*/
+.faq{
+    padding-bottom: 1em;
+}
+
+.faq h2{
+    margin: 2em 0;
+    font-size: 1.4em;
+    opacity: 0.8;
+}
+
 .accordion-area{
-    width: 90%;
-    padding: 0 5%;
-}	
-	
+    width: 96%;
+    padding: 0 2%;
+}
+
+.title{
+    margin: 2em 0;
+    font-size: 1em;
+    padding-right: 2em;
+}
+
+.title::before,
+.title::after{
+    content: '\f151';
+    font-weight: 900;
+    position: absolute;
+    top: 30%;
+    right: 2%;
+    transition: transform 0.1s;
+    font-size: 20px;
+    font-family: "Font Awesome 5 Free";
+    
+}
+
+.box {
+    padding: 0 1em 1em 1em;
+    font-size: 0.8em;
+}
+
+.footer{
+    padding: 0.8em 0;
+}
+
+
 }/*end*/
