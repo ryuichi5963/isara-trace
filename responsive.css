@@ -379,6 +379,7 @@ h2{
 .member-menu{
     flex-direction: column;
     align-items: center;
+    margin-top: 0;
     padding: 1px 0;
 }
 
