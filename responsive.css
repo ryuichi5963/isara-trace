@@ -770,7 +770,6 @@ details[open] .flow-acord-sum p{
 
 /*アコーディオン全体*/
 .accordion-area{
-    list-style: none;
     width: 90%;
     padding: 0 5%;
 }	
