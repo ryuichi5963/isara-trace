@@ -768,4 +768,11 @@ details[open] .flow-acord-sum p{
     letter-spacing: 1em;
 }
 
+/*アコーディオン全体*/
+.accordion-area{
+    list-style: none;
+    width: 90%;
+    padding: 0 5%;
+}	
+	
 }/*end*/
